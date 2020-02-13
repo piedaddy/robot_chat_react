@@ -20,6 +20,7 @@ body {
   border-radius: 4px;
   min-height: 4rem;
   padding: 1rem;
+
 }
 
 .message {
@@ -47,6 +48,8 @@ body {
   padding: 1rem;
   border-radius: 4px;
   margin: 0 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .message--local .message__text {
@@ -61,6 +64,15 @@ body {
 .button {
   background-color: bisque;
   border-radius: 50%;
-  width:35px;
-  height:30px;
+  width:30px;
+  height:20px;
+  font-size: .5em;
+  text-align: center;
+  margin-top: .9em;
+}
+
+.number {
+  font-size: .7em;
+  padding:0;
+  margin:0;
 }
